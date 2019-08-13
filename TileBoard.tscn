@@ -1,0 +1,597 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://TileBoard.gd" type="Script" id=1]
+[ext_resource path="res://Tile.tscn" type="PackedScene" id=2]
+
+[node name="TileBoard" type="GridContainer"]
+margin_right = 450.0
+margin_bottom = 420.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/vseparation = 1
+custom_constants/hseparation = 1
+columns = 10
+script = ExtResource( 1 )
+Tile = ExtResource( 2 )
+rows = 10
+max_tiles_to_reveal_per_second = 2000
+
+[node name="PlaceholderTile" parent="." instance=ExtResource( 2 )]
+margin_right = 44.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile16" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_right = 89.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile24" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_right = 134.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile39" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_right = 179.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile46" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_right = 224.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile57" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_right = 269.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile65" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_right = 314.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile75" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_right = 359.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile2" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_right = 404.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile14" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_right = 449.0
+margin_bottom = 41.0
+
+[node name="PlaceholderTile28" parent="." instance=ExtResource( 2 )]
+margin_top = 42.0
+margin_right = 44.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile34" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_top = 42.0
+margin_right = 89.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile49" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_top = 42.0
+margin_right = 134.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile59" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_top = 42.0
+margin_right = 179.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile67" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_top = 42.0
+margin_right = 224.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile77" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_top = 42.0
+margin_right = 269.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile3" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 42.0
+margin_right = 314.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile17" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_top = 42.0
+margin_right = 359.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile25" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_top = 42.0
+margin_right = 404.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile38" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_top = 42.0
+margin_right = 449.0
+margin_bottom = 83.0
+
+[node name="PlaceholderTile44" parent="." instance=ExtResource( 2 )]
+margin_top = 84.0
+margin_right = 44.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile52" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_top = 84.0
+margin_right = 89.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile64" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_top = 84.0
+margin_right = 134.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile74" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_top = 84.0
+margin_right = 179.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile4" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_top = 84.0
+margin_right = 224.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile12" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_top = 84.0
+margin_right = 269.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile30" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 84.0
+margin_right = 314.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile36" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_top = 84.0
+margin_right = 359.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile45" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_top = 84.0
+margin_right = 404.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile55" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_top = 84.0
+margin_right = 449.0
+margin_bottom = 125.0
+
+[node name="PlaceholderTile69" parent="." instance=ExtResource( 2 )]
+margin_top = 126.0
+margin_right = 44.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile79" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_top = 126.0
+margin_right = 89.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile5" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_top = 126.0
+margin_right = 134.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile13" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_top = 126.0
+margin_right = 179.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile27" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_top = 126.0
+margin_right = 224.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile33" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_top = 126.0
+margin_right = 269.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile50" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 126.0
+margin_right = 314.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile53" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_top = 126.0
+margin_right = 359.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile61" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_top = 126.0
+margin_right = 404.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile71" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_top = 126.0
+margin_right = 449.0
+margin_bottom = 167.0
+
+[node name="PlaceholderTile6" parent="." instance=ExtResource( 2 )]
+margin_top = 168.0
+margin_right = 44.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile18" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_top = 168.0
+margin_right = 89.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile21" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_top = 168.0
+margin_right = 134.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile40" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_top = 168.0
+margin_right = 179.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile47" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_top = 168.0
+margin_right = 224.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile54" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_top = 168.0
+margin_right = 269.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile62" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 168.0
+margin_right = 314.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile72" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_top = 168.0
+margin_right = 359.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile7" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_top = 168.0
+margin_right = 404.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile19" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_top = 168.0
+margin_right = 449.0
+margin_bottom = 209.0
+
+[node name="PlaceholderTile22" parent="." instance=ExtResource( 2 )]
+margin_top = 210.0
+margin_right = 44.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile32" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_top = 210.0
+margin_right = 89.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile42" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_top = 210.0
+margin_right = 134.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile60" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_top = 210.0
+margin_right = 179.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile68" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_top = 210.0
+margin_right = 224.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile78" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_top = 210.0
+margin_right = 269.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile8" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 210.0
+margin_right = 314.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile11" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_top = 210.0
+margin_right = 359.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile26" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_top = 210.0
+margin_right = 404.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile37" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_top = 210.0
+margin_right = 449.0
+margin_bottom = 251.0
+
+[node name="PlaceholderTile43" parent="." instance=ExtResource( 2 )]
+margin_top = 252.0
+margin_right = 44.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile51" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_top = 252.0
+margin_right = 89.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile63" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_top = 252.0
+margin_right = 134.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile73" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_top = 252.0
+margin_right = 179.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile9" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_top = 252.0
+margin_right = 224.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile20" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_top = 252.0
+margin_right = 269.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile23" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 252.0
+margin_right = 314.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile31" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_top = 252.0
+margin_right = 359.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile48" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_top = 252.0
+margin_right = 404.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile56" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_top = 252.0
+margin_right = 449.0
+margin_bottom = 293.0
+
+[node name="PlaceholderTile70" parent="." instance=ExtResource( 2 )]
+margin_top = 294.0
+margin_right = 44.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile89" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_top = 294.0
+margin_right = 89.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile99" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_top = 294.0
+margin_right = 134.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile80" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_top = 294.0
+margin_right = 179.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile90" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_top = 294.0
+margin_right = 224.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile100" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_top = 294.0
+margin_right = 269.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile10" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 294.0
+margin_right = 314.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile83" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_top = 294.0
+margin_right = 359.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile94" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_top = 294.0
+margin_right = 404.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile15" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_top = 294.0
+margin_right = 449.0
+margin_bottom = 335.0
+
+[node name="PlaceholderTile85" parent="." instance=ExtResource( 2 )]
+margin_top = 336.0
+margin_right = 44.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile96" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_top = 336.0
+margin_right = 89.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile29" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_top = 336.0
+margin_right = 134.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile87" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_top = 336.0
+margin_right = 179.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile97" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_top = 336.0
+margin_right = 224.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile35" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_top = 336.0
+margin_right = 269.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile81" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 336.0
+margin_right = 314.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile92" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_top = 336.0
+margin_right = 359.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile41" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_top = 336.0
+margin_right = 404.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile84" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_top = 336.0
+margin_right = 449.0
+margin_bottom = 377.0
+
+[node name="PlaceholderTile95" parent="." instance=ExtResource( 2 )]
+margin_top = 378.0
+margin_right = 44.0
+margin_bottom = 419.0
+
+[node name="PlaceholderTile58" parent="." instance=ExtResource( 2 )]
+margin_left = 45.0
+margin_top = 378.0
+margin_right = 89.0
+margin_bottom = 419.0
+
+[node name="PlaceholderTile82" parent="." instance=ExtResource( 2 )]
+margin_left = 90.0
+margin_top = 378.0
+margin_right = 134.0
+margin_bottom = 419.0
+
+[node name="PlaceholderTile93" parent="." instance=ExtResource( 2 )]
+margin_left = 135.0
+margin_top = 378.0
+margin_right = 179.0
+margin_bottom = 419.0
+
+[node name="PlaceholderTile66" parent="." instance=ExtResource( 2 )]
+margin_left = 180.0
+margin_top = 378.0
+margin_right = 224.0
+margin_bottom = 419.0
+
+[node name="PlaceholderTile88" parent="." instance=ExtResource( 2 )]
+margin_left = 225.0
+margin_top = 378.0
+margin_right = 269.0
+margin_bottom = 419.0
+
+[node name="PlaceholderTile98" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 378.0
+margin_right = 314.0
+margin_bottom = 419.0
+
+[node name="PlaceholderTile76" parent="." instance=ExtResource( 2 )]
+margin_left = 315.0
+margin_top = 378.0
+margin_right = 359.0
+margin_bottom = 419.0
+
+[node name="PlaceholderTile86" parent="." instance=ExtResource( 2 )]
+margin_left = 360.0
+margin_top = 378.0
+margin_right = 404.0
+margin_bottom = 419.0
+
+[node name="PlaceholderTile91" parent="." instance=ExtResource( 2 )]
+margin_left = 405.0
+margin_top = 378.0
+margin_right = 449.0
+margin_bottom = 419.0

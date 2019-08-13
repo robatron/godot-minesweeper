@@ -1,0 +1,95 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Header.gd" type="Script" id=1]
+
+[node name="UiHeader" type="HBoxContainer"]
+margin_right = 450.0
+margin_bottom = 50.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 0
+script = ExtResource( 1 )
+
+[node name="DifficultyControl" type="CenterContainer" parent="."]
+margin_right = 150.0
+margin_bottom = 50.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="DifficultyOptions" type="OptionButton" parent="DifficultyControl"]
+margin_left = 54.0
+margin_top = 15.0
+margin_right = 95.0
+margin_bottom = 35.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="GameInfo" type="HBoxContainer" parent="."]
+margin_left = 150.0
+margin_right = 300.0
+margin_bottom = 50.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="MineInfo" type="VBoxContainer" parent="GameInfo"]
+margin_right = 73.0
+margin_bottom = 50.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="MineLabel" type="Label" parent="GameInfo/MineInfo"]
+margin_right = 73.0
+margin_bottom = 23.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Mines"
+valign = 2
+
+[node name="MineValue" type="Label" parent="GameInfo/MineInfo"]
+margin_top = 27.0
+margin_right = 73.0
+margin_bottom = 50.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "00"
+valign = 1
+
+[node name="ScoreInfo" type="VBoxContainer" parent="GameInfo"]
+margin_left = 77.0
+margin_right = 150.0
+margin_bottom = 50.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ScoreLabel" type="Label" parent="GameInfo/ScoreInfo"]
+margin_right = 73.0
+margin_bottom = 23.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Score"
+valign = 2
+
+[node name="ScoreValue" type="Label" parent="GameInfo/ScoreInfo"]
+margin_top = 27.0
+margin_right = 73.0
+margin_bottom = 50.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "00"
+valign = 1
+
+[node name="GameControls" type="CenterContainer" parent="."]
+margin_left = 300.0
+margin_right = 450.0
+margin_bottom = 50.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ResetGameButton" type="Button" parent="GameControls"]
+margin_left = 30.0
+margin_top = 15.0
+margin_right = 120.0
+margin_bottom = 35.0
+text = "Reset Game"
+[connection signal="item_selected" from="DifficultyControl/DifficultyOptions" to="." method="_on_DifficultyOptions_item_selected"]
+[connection signal="pressed" from="GameControls/ResetGameButton" to="." method="_on_ResetGameButton_pressed"]
